@@ -91,3 +91,9 @@ hourglass(n)
 
 print("\n5. Diamond Pattern")
 diamond(n)
+
+# References
+# https://www.idtech.com/blog/what-is-n-in-python
+# https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/
+# https://www.toppr.com/guides/python-guide/references/methods-and-functions/python-range/
+# https://stackoverflow.com/questions/9910090/python-range-with-negative-strides
