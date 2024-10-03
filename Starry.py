@@ -74,7 +74,6 @@ def diamond(height):
         print()  # move to the next line after printing the current row
 
 
-
 # display each pattern with the user-defined height
 
 print("1. Center-Aligned Pyramid Pattern")
@@ -91,7 +90,6 @@ hourglass(n)
 
 print("\n5. Diamond Pattern")
 diamond(n)
-
 
 # references
 # https://www.idtech.com/blog/what-is-n-in-python
