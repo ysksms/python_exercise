@@ -73,7 +73,6 @@ def diamond(height):
             print("*", end="")
         print()  # Move to the next line after printing the current row
 
-
 # Display each pattern with the user-defined height
 
 print("1. Center-Aligned Pyramid Pattern")
