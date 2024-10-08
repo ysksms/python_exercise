@@ -8,7 +8,7 @@ print("* 1D Array:")
 print(array_1d)
 print(f"* Shape of array: {array_1d.shape}")
 print(f"* Element at index 10: {array_1d[10]}")
-print() # add an empty line at the end to separate output for better clarity
+print()  # add an empty line at the end to separate output for better clarity
 
 # Task 2: Creating a 2D NumPy Array
 print("-----Task 2-----")

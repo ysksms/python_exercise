@@ -1,6 +1,7 @@
 # get the number of rows from the user
 n = int(input("# rows: "))
 
+
 # 1. Center-Aligned Pyramid Pattern
 def pyramid(height):
     for i in range(1, height + 1):
@@ -10,12 +11,14 @@ def pyramid(height):
             print("*", end="")
         print()  # move to the next line after printing the current row
 
+
 # 2. Left-Aligned Triangle Pattern (decreasing stars)
 def left_triangle(height):
     for i in range(height, 0, -1):  # example of array  [7, 6, 5, 4, 3, 2, 1]
         for j in range(i):
             print("*", end="")
         print()  # move to the next line after printing the current row
+
 
 # 3. Centered arrow pattern with increasing and decreasing stars
 def arrow_pattern(height):
@@ -32,6 +35,7 @@ def arrow_pattern(height):
         for j in range(i):  # print stars equal to the row number
             print("*", end="")
         print()  # move to the next line after printing all stars in the current row
+
 
 # 4. Hourglass Pattern
 def hourglass(height):
@@ -52,6 +56,7 @@ def hourglass(height):
         for j in range(2 * i - 1):
             print("*", end="")
         print()  # move to the next line after printing the current row
+
 
 # 5. Diamond Pattern
 def diamond(height):

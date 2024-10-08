@@ -3,7 +3,7 @@ number = int(input("Enter the number: "))
 n = int(input("Enter the position (from right): "))
 
 # use integer division and mod to find the nth digit from the right
-nth_digit = (number // 10**(n-1)) % 10
+nth_digit = (number // 10 ** (n - 1)) % 10
 
 # print the result
 print(f"The {n}th digit (from the right) is: {nth_digit}")
